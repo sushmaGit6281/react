@@ -1,0 +1,182 @@
+.bg-container-details {
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.bg-container-header {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.rampedup-logo {
+    margin-left: 13px;
+
+}
+
+.rampedup {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+}
+
+.image-rampedup {
+    border-radius: 50%;
+}
+
+.search-bar-container {
+    width: 100%;
+    border-radius: 10px;
+    height: 38px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    margin-left: 4px;
+}
+
+.ci-icon {
+    margin: 5px;
+
+}
+
+.search-bar-container>input {
+    flex: 1;
+    height: 38px;
+    border: none;
+    align-items: center;
+    font-size: 12px;
+
+}
+
+.search-side {
+    font-size: 13px;
+    height: 30px;
+    margin: 15px;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    justify-content: center;
+    background-image: linear-gradient(to right, #1f7a1f, #00ace6);
+
+}
+
+.middle-container {
+    width: 100%;
+    height: 700px;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list-container {
+    font-size: 12px;
+    margin: 0px;
+    padding: 4px;
+}
+
+.links-container {
+    font-family: bold;
+    padding: 4px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    text-align: right;
+    padding: 0px;
+}
+
+ul li {
+    margin: 3px;
+    text-align: right;
+}
+
+.list-elements {
+    font-size: 12px;
+    text-align: right;
+    display: flex;
+
+}
+
+.list-container-Access {
+    width: 120px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 7px;
+    background-image: linear-gradient(to right, #1f7a1f, #00ace6);
+    /* align-items: center; */
+}
+
+.icon-bs {
+    color: #00ace6;
+    margin: 5px;
+}
+
+.company-details-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+
+.company-details {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 3% 7% 9% 10% 12% 9% 12% 15% 11% 20%;
+    font-size: 12px;
+    font-family: bold;
+}
+
+.icon-bs {
+    display: flex;
+}
+
+.checkbox-container {
+    display: flex;
+}
+
+.checkbox-container label {
+    cursor: pointer;
+}
+
+.checkbox-container input [ type="checkbox"] {
+    cursor: pointer;
+}
+
+.data-container {
+    display: flex;
+}
+
+.candidates-container {
+    font-size: 11px;
+    color: lightslategray;
+    display: grid;
+    grid-template-columns: 3% 7% 9% 10% 12% 9% 12% 15% 11% 20%;
+    margin: 10px;
+}
+
+.footer-container {
+    margin: 13px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    display: flex;
+    margin: 3px;
+}
